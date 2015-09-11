@@ -65,7 +65,7 @@ gulp.task('build:d.ts', function() {
 gulp.task('build', function(callback) {
   return runSequence(
     'clean',
-    ['build:js', 'build:html', 'build:d.ts'],
+    ['build:js', 'build:html'],
     callback
   );
 });
