@@ -20,6 +20,7 @@
   "jspm": {
     "directories": {},
     "dependencies": {
+      "horcrux-base": "github:hor-crux/horcrux-base@master",
       "horcrux-core": "github:hor-crux/horcrux-core@master",
       "horcrux-di": "github:hor-crux/horcrux-di@master",
       "horcrux-flux": "github:hor-crux/horcrux-flux@master"
