@@ -2,6 +2,21 @@
   "name": "horcrux",
   "version": "0.0.0",
   "main": "dist/horcrux",
+  "jspm": {
+    "registry": "github",
+    "directories": {
+      "lib": "dist"
+    },
+    "dependencies": {
+      "horcrux-base": "github:hor-crux/horcrux-base@master",
+      "horcrux-core": "github:hor-crux/horcrux-core@master",
+      "horcrux-di": "github:hor-crux/horcrux-di@master",
+      "horcrux-flux": "github:hor-crux/horcrux-flux@master",
+      "horcrux-router": "github:hor-crux/horcrux-router@master",
+      "horcrux-layout": "github:hor-crux/horcrux-layout@master"
+    },
+    "devDependencies": {}
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "del": "^2.0.1",
@@ -16,19 +31,5 @@
     "jspm": "^0.16.2",
     "require-dir": "^0.3.0",
     "typescript": "^1.6.0-dev.20150909"
-  },
-  "jspm": {
-    "directories": {
-      "lib": "dist"
-    },
-    "dependencies": {
-      "horcrux-base": "github:hor-crux/horcrux-base@master",
-      "horcrux-core": "github:hor-crux/horcrux-core@master",
-      "horcrux-di": "github:hor-crux/horcrux-di@master",
-      "horcrux-flux": "github:hor-crux/horcrux-flux@master",
-      "horcrux-router": "github:hor-crux/horcrux-router@master",
-      "horcrux-layout": "github:hor-crux/horcrux-layout@master"
-    },
-    "devDependencies": {}
   }
 }
