@@ -26,8 +26,9 @@
       "horcrux-core": "github:hor-crux/horcrux-core@master",
       "horcrux-di": "github:hor-crux/horcrux-di@master",
       "horcrux-flux": "github:hor-crux/horcrux-flux@master",
-      "horcrux-router": "github:hor-crux/horcrux-router@master",
-      "horcrux-layout": "github:hor-crux/horcrux-layout@master"
+      "horcrux-http": "github:hor-crux/horcrux-http@master",
+      "horcrux-layout": "github:hor-crux/horcrux-layout@master",
+      "horcrux-router": "github:hor-crux/horcrux-router@master"
     },
     "devDependencies": {}
   }
